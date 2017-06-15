@@ -22,7 +22,7 @@ def one_hot_vector(label):
 
 with h5py.File('kalph_train.hf', 'r') as hf:
     #images = [cv2.GaussianBlur(image, (3, 3), 0) for image in hf['images']]
-    trainimages1 = np.reshape(np.array(hf['images']), [-1, 52, 52]) #52, 28
+    trainimages1 = np.reshape(np.array(hf['images']), [-1, 52, 52]) #52
     trainlabels1 = np.array(hf['labels'])
 
 num_imgs, rows, cols = trainimages1.shape
