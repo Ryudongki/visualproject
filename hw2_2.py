@@ -6,7 +6,7 @@ from numpy import meshgrid
 
 w1 = [[], [], []]
 w3 = [[], [], []]
-
+ 
 f = open("C:\\Users\\Ryu\\Desktop\\w1.dat", "r")
 
 lines = f.readlines()
