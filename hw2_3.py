@@ -87,7 +87,7 @@ while(1):
     print(num1, num2)
     if(num1 + num2 < 0):
         break
-
+ 
 w1dot = np.zeros((len(w1[0]), len(w1[1])))
 w3dot = np.zeros((len(w3[0]), len(w3[1])))
 w1dot[0], w1dot[1] = w1[0], w1[1]
