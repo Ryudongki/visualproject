@@ -87,7 +87,7 @@ for line in lines:
     testFeature[4].append(int(x[4]))
 
 f.close()
-
+ 
 testX = np.zeros((1, 4))
 
 temp = np.zeros((len(testFeature) - 1, len(testFeature[0])))
