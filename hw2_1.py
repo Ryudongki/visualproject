@@ -8,7 +8,7 @@ w1 = [[], [], []]
 w2 = [[], [], []]
 
 f = open("C:\\Users\\Ryu\\Desktop\\w1.dat", "r")
-
+ 
 lines = f.readlines()
 
 for line in lines:
