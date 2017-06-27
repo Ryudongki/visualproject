@@ -3,7 +3,7 @@ import h5py
 import numpy as np
 import scipy.misc
 import cv2
-
+ 
 tf.set_random_seed(777)
 flag = True
 batch_size = 49
