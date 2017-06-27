@@ -33,7 +33,7 @@ covMatrix3 = np.zeros((4, 4))
 covMatrix1 = np.cov([covTotal[0][0], covTotal[0][1], covTotal[0][2], covTotal[0][3]])
 covMatrix2 = np.cov([covTotal[1][0], covTotal[1][1], covTotal[1][2], covTotal[1][3]])
 covMatrix3 = np.cov([covTotal[2][0], covTotal[2][1], covTotal[2][2], covTotal[2][3]])
-
+ 
 print("covMatrix1")
 print(covMatrix1)
 print("\n" + "covMatrix2")
