@@ -9,7 +9,7 @@ trainFeature = [[[], []], [[], []], [[], []]]
 f = open("C:\\Users\\Ryu\\Desktop\\Iris_train1.dat", "r")
 
 lines = f.readlines()
-
+ 
 for line in lines:
     line = line.rstrip()
     x = line.split(' ')
